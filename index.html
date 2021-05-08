@@ -1,0 +1,83 @@
+<!--DOCTYPE html  -->
+<html lang="eng">
+
+<head>
+  <meta charset="UFT-8" />
+  <title> Survey Form</title>
+  
+<body>
+  <h1 id="title">Complaint form</h1>
+  <p id="description"><em>This survey is conducted by government of India under human welfare commitee </em></p>
+  <div id="formBox">
+    <form id="survey-form">
+      <label for="Name" id="name-label" class="topic">Name</label> <br>
+        <input type="text" id="name" name="Name" placeholder="Your name" class="box" required><br>
+      <label for="Email"id="email-label" class="topic">Email</label><br>
+        <input type="email" id="email" name="Email" placeholder="Your e-mail" class="box" required><br>
+      <label for="num" id="number-label" class="topic">Age</label><br>
+        <input type="number" id="number" name="num" min="18" max="70" placeholder="Your Age" class="box" required><br>
+      <label for="no"id="phone-label" class="topic">Phone number</label><br>
+      <input type="text" id="phone" pattern="[0-9]" name="no" placeholder="Your phone no." class="box" required><br>
+<!-----------------------  dropdown menu      ---------------------------->
+    <div id="menu">
+      <label for="complaint" class="topic"> What type of complaint you want to file</label><br>
+      <select id="dropdown" name="complaint">
+
+        <option disabled selected value>
+          Please select your complaint
+        </option>
+        <option value="Corruption">
+          Corruption
+        </option>
+        <option value="Staff misbehaviour">
+          Staff misbehaviour
+        </option>
+        <option value="Non-Delivery against Commitment" >
+          Non-Delivery against Commitment
+        </option>
+        <option value="Injustice concerns" >
+          Injustice concerns
+        </option>
+        <option value="Other" name="other">
+          Other
+        </option>
+      </select><br>
+      </div>
+      <!-----------------------  radio     ---------------------------->
+
+      <feildset>
+        <legend class="topic">which type legal procedure you want to go through</legend>
+        <div id="radio-option">
+        <input type="radio" id="fir" name="legal" value="checked"checked >
+        <label for="legal">FIR</label><br>
+        <input type="radio" id="private" name="legal" value="checked">
+        <label for="legal">Private Complaint</label><br>
+        <input type ="radio" id="warning" name="legal" value="checked" >
+        <label for="legal">Warning Complaint</label>
+        </div>
+      </feildset><br>
+      <!-----------------------  checkbox     ---------------------------->
+
+      <legend class="topic">Whom you want to tag</legend>
+      <div id="checkbox-option">
+      <label for="inspector"><input type="checkbox" id="inspector" value="send" checked>Inspector</label><br>
+      <label for="sp"><input type="checkbox" id ="sp" value="send">
+        superintendent of police</label><br>
+      <label for="dsp"><input type="checkbox" id="dsp" value="send">
+        Deputy superintendent of police</label><br>
+      <label for="ig"><input type="checkbox" id ="ig" value="send">
+        Inspector General</label><br>
+      <label for="dg"><input type="checkbox" id ="dg" value="send">
+        Director General</label><br>
+      </div>
+      <label for="discription" class="topic">Write breifly about your situation</label><br> 
+               <!------------   testarea     ------------->
+      <textarea id="discription" placeholder="write your situation"></textarea><br>
+      <input type="submit" id = "submit">
+    </form>
+
+  </div>
+
+</body>
+
+</html>
