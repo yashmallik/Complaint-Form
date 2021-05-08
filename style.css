@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@600&family=Poppins:wght@300&family=Sansita+Swashed:wght@300&display=swap');
+body{
+  background-color:#2C5F2D;
+  color:white;
+  font-family:'Poppins', sans-serif;
+}
+#formBox{
+  background-color:#97BC62FF;
+  margin:auto;
+  width:70%;
+  padding:40px;
+}
+h1{
+  text-align:center;
+  font-size:45px;
+}
+p{
+  margin-top:-30px;
+  text-align:center;
+  padding-bottom:20px
+ 
+}
+
+#survey-form{
+  margin-top:0px;
+}
+#surveyBox{
+  
+}
+.topic{
+   margin-left:50px;
+  font-size:25px;
+  
+}
+.box{
+  
+  width:800px;
+  height:30px;
+  margin-left:50px;
+}
+/* below code is for the drop down menu, not on topic but on the dropdown bar  */
+#dropdown{
+  margin-left:50px;
+  width:806px;
+  height:40px;
+  
+}
+#name-label{
+  margin-top:50px;
+}
+#radio-option{
+  margin-left:50px;
+  border:1.5px dashed;
+  width: 800px;
+}
+#checkbox-option{
+     margin-left:50px;
+    border:1.5px dashed;
+  width: 800px;
+}
+#discription {
+  margin-left:50px;
+  width:800px;
+  height:100px;
+}
+
+#submit{
+ width:850px;
+ height:35px;
+ background-color:#2C5F2D;
+ margin-left:35px;
+ margin-top:20px;
+ margin-bottom:20px;
+ border:none;
+ border-radius:20px;
+  font-size:20px;
+  font-family:roboto;
+  color:white;
+}
+/* this is working on div of that whole dropdown bar + menu   */
+#menu{
+  margin-top:20px;
+  margin-bottom:20px;
+
+}
